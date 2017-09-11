@@ -1,0 +1,4 @@
+C:\Users\houssem\Source\Repos\BookStoreSharepointAddIn\BookStoreSharepointAddIn\BookStoreSharepointAddIn\bin\Debug\BookStoreSharepointAddIn.pdb
+C:\Users\houssem\Source\Repos\BookStoreSharepointAddIn\BookStoreSharepointAddIn\BookStoreSharepointAddIn\obj\Debug\BookStoreSharepointAddIn.csproj.CoreCompileInputs.cache
+C:\Users\houssem\Source\Repos\BookStoreSharepointAddIn\BookStoreSharepointAddIn\BookStoreSharepointAddIn\obj\Debug\BookStoreSharepointAddIn.dll
+C:\Users\houssem\Source\Repos\BookStoreSharepointAddIn\BookStoreSharepointAddIn\BookStoreSharepointAddIn\obj\Debug\BookStoreSharepointAddIn.pdb
