@@ -1,0 +1,6 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Solution xmlns="http://schemas.microsoft.com/sharepoint/" SolutionId="fc1733af-219d-4c72-8f2d-79e892d6f3f9" SharePointProductVersion="16.0">
+  <FeatureManifests>
+    <FeatureManifest Location="BookStoreSharepointAddIn_BookComponents\Feature.xml" />
+  </FeatureManifests>
+</Solution>

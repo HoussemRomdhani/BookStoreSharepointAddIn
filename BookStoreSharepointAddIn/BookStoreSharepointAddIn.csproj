@@ -1,4 +1,5 @@
-﻿<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="15.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
@@ -42,9 +43,18 @@
     <UseVSHostingProcess>false</UseVSHostingProcess>
   </PropertyGroup>
   <ItemGroup>
+    <Content Include="Lists\Book\BookInstance\Elements.xml" />
+    <Content Include="Lists\Book\Elements.xml" />
+    <Content Include="Lists\Book\Schema.xml" />
     <Content Include="Scripts\jquery-1.9.1.intellisense.js" />
     <Content Include="Scripts\jquery-1.9.1.js" />
     <Content Include="Scripts\jquery-1.9.1.min.js" />
+    <None Include="Lists\Book\BookInstance\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{2ee6709b-26aa-4631-9d13-9e9c64010339}</SharePointProjectItemId>
+    </None>
+    <None Include="Lists\Book\SharePointProjectItem.spdata">
+      <SharePointProjectItemId>{f83e78c9-0a57-4f50-964f-edd3c5f2410e}</SharePointProjectItemId>
+    </None>
     <None Include="packages.config" />
     <None Include="Pages\SharePointProjectItem.spdata">
       <SharePointProjectItemId>{d75080c0-ff57-483a-8177-6ad2323d7bc3}</SharePointProjectItemId>
@@ -83,11 +93,11 @@
     <None Include="Package\Package.Template.xml">
       <DependentUpon>Package.package</DependentUpon>
     </None>
-    <None Include="Features\Feature1\Feature1.feature">
+    <None Include="Features\BookComponents\BookComponents.feature">
       <FeatureId>{831549cf-436d-445e-88b2-3096ae0b8c9a}</FeatureId>
     </None>
-    <None Include="Features\Feature1\Feature1.Template.xml">
-      <DependentUpon>Feature1.feature</DependentUpon>
+    <None Include="Features\BookComponents\BookComponents.Template.xml">
+      <DependentUpon>BookComponents.feature</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
